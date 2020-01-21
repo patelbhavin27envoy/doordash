@@ -1,0 +1,50 @@
+@import '../../index.scss';
+
+.left {
+  min-width: 18%;
+  background: $color-brandExtraColor;
+  color: $color-white;
+  min-height: 100vh;
+
+  .user {
+    margin-top: 50px;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 0px 10px 20px;
+
+    .name,
+    .online-time {
+      text-transform: capitalize;
+    }
+
+    .online-time {
+        font-weight: 300;
+        font-size: 14px;
+    }
+  }
+
+  .wrapper {
+    margin-left: auto;
+  }
+
+  .rooms {
+    margin-top: 40px;
+
+    .room {
+      padding: 10px 0px 10px 20px;
+      font-weight: 300;
+      margin: 0px;
+      &:hover {
+        background: #00000087;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+}
+
+#sidebar {
+  min-height: 100vh;
+}
+

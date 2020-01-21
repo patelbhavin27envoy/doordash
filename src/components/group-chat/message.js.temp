@@ -1,0 +1,36 @@
+import React, {Component} from "react";
+import PropTypes from 'prop-types';
+
+import './groupchat.scss';
+
+/* This component is not being used because of react problem */
+class Message extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            message: this.props.message,
+            name : this.props.name,
+            userName : this.props.userName
+        };
+    }
+
+    render() {
+
+        let {message, userName, name} = this.state;
+        const msgClassName = userName === name ? 'self' : 'other'
+
+        return (
+            <>
+            <li className={msgClassName} >
+                <div className="msg">
+                    <p> {name} </p>
+                    <div className="message.js.temp"> {message} </div>
+                < /div>
+            </li>
+            </>
+        )
+    }
+}
+
+export default Message;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatWindow Component ::  should render 1`] = `
+<div
+  className="row container-flex flex-row"
+>
+  <div
+    className="left"
+  >
+    <div
+      className="wrapper"
+    >
+      <div
+        className="sidebar-header"
+      >
+        <div
+          className="user"
+        >
+          <h3
+            className="name"
+          />
+          <div
+            className="online-time"
+          >
+            was online 1 hour before
+          </div>
+        </div>
+      </div>
+      <ul
+        className="list-unstyled components justify-content-center"
+      >
+        <div
+          className="rooms"
+        >
+          <div
+            className="error"
+          >
+             Sorry ! something went wrong 
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="right"
+  >
+    <div
+      className="chat-header"
+    >
+      <div
+        className="room-window"
+      >
+        <div
+          className="chatWindow"
+        >
+          <div
+            className="header"
+          >
+            <h3
+              className="name"
+            >
+              Analytics
+            </h3>
+            <div
+              className="users"
+            >
+              ...
+            </div>
+          </div>
+          <ul
+            className="chat chatList"
+          />
+          <div
+            className="chatInputWrapper"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                className="textarea input"
+                name="usermessage"
+                onChange={[Function]}
+                placeholder="Enter your message..."
+                type="text"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
